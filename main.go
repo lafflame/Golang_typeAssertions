@@ -11,5 +11,5 @@ func main() {
 	fmt.Println(t) //вывод "HOLA senior"
 
 	k := i.(int)
-	fmt.Println(k) //паника, потому что типы не соответствуют
+	fmt.Println(k) //паника: типы не соответствуют
 }
